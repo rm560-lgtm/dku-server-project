@@ -1,0 +1,16 @@
+# ignore data files
+data/**
+!data/.gitkeep
+
+# ignore results files
+results/**
+!results/.gitkeep
+
+# system files
+.DS_Store
+Thumbs.db
+
+# python
+__pycache__/
+*.pyc
+.venv/
